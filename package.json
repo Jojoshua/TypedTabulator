@@ -1,0 +1,34 @@
+{
+  "name": "TypedTabulator",
+  "version": "1.0.0",
+  "description": "This is a sample Tabulator project using TypeScript type definitions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jojoshua/TypedTabulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jojoshua/TypedTabulator/issues"
+  },
+  "homepage": "https://github.com/Jojoshua/TypedTabulator#readme",
+  "dependencies": {
+    "tabulator-tables": "4.2.7"
+  },
+  "devDependencies": {
+    "@types/tabulator-tables": "4.2.4",
+    "clean-webpack-plugin": "2.0.1",
+    "ts-loader": "5.3.3",
+    "typescript": "3.4.5",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.3.1",
+    "html-webpack-plugin": "3.2.0"
+  }
+}
